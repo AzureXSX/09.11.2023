@@ -1,0 +1,142 @@
+
+*{
+    margin: 0;
+}
+
+html{
+    background-color: #c3c4c8;
+    background: url(https://cdn.forms.office.net/forms/formsresources/intelligence/themes/meeting-table1.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+body{
+    position: relative;
+    z-index: -2;
+    display: flex;
+    justify-content: center;
+}
+.div-x-u{
+    position: fixed;
+    z-index: -2;
+    width: 100%;
+    height: 100vh;
+    background-color: #a8aaa9;
+    opacity: 0.4;
+}
+
+.main-div-x{
+    width: 55rem;
+    height: auto;
+    background-color: white;
+    border-radius: 0.38rem;
+    margin: 1vh 0 0 0;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    user-select: none;
+}
+
+
+.title-x{
+    width: 100%;
+    margin: 1rem 0 0 0;
+    font-weight: 1.7rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+}
+
+.question-div-x{
+    width: 100%;
+    height: auto;
+    padding: 3rem 3rem 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.question-div-x p{
+    margin-bottom: 0.3rem;
+    user-select: none;
+}
+
+.question-div-x input[type=radio]{
+    user-select: none;
+    position: relative;
+    opacity: 1;
+    cursor: pointer;
+    height: 1rem;
+    width: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-x{
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem 0 0.5rem 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-x label{
+    margin-top: -0.05rem;
+    margin-left: 0.38rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.topic-div-x{
+    position: relative;
+    z-index: -1;
+    width: 55rem;
+    height: 36vh;
+    margin: 2rem 0 0rem 0;
+    background: url(https://cdn.forms.office.net/forms/formsresources/intelligence/themes/meeting-table1.jpg);
+    background-size: cover;
+    border-radius: 0.38rem 0.38rem 0 0;
+}
+
+.topic-div-x-bottom{
+    position: relative;
+    z-index: -1;
+    width: 55rem;
+    height: 9.7rem;
+    background-color: white;
+}
+
+.overlay-div-x{
+    background-color: #323a46;
+    opacity: 0.9;
+    width: 38rem;
+    height: 22.3rem;
+    position: absolute;
+    margin-left: 4rem;
+    margin-top: -16.9rem;
+    border-radius: 0.38rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: 100;
+}
+
+.submit-btn-x{
+    position: relative;
+    background-color: #2D323E;
+    border: none;
+    margin-left: 2.7rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.38rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 5rem;
+    height: 2.5rem;
+    
+}
+
+.submit-btn-x:hover{
+    background-color: #1A1D25;
+}
+
+.name-input-x{
+    width: 15rem;
+    margin: 2rem 0 0 1.38rem ;
+}

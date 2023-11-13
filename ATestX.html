@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="AtestX.css">
+    <title>Test</title>
+</head>
+<body>
+
+    <div class="div-x-u">
+
+    </div>
+    <div style="display: flex; flex-direction: column; justify-content: center;">
+        <div class="topic-div-x">
+
+        </div>
+        <div class="topic-div-x-bottom">
+            <div class="overlay-div-x">
+
+                <p style="margin: 6rem 0 0 2.7rem; font-size: 1.6rem;">Employee satisfaction survey</p>
+                <p style="margin: 3rem 0 0 2.7rem">13 Nov 2023</p>
+                <p style="margin: 2rem 0 0 2.7rem;font-size: 0.8rem;">You are invited!</p>
+                <p style="margin: 0.38rem 0 0 2.7rem;font-size: 0.8rem;">Location of the event.</p>
+            </div>
+        </div>
+        <div class="main-div-x">    
+            <form method="post" id="x-x-x">
+                <div class="question-div-x">
+                    <p>1. What is your job role?</p>
+                    <div class="container-x">
+                        <input id="r11" type="radio" name="question1" value="A" checked>
+                        <label for="r11">Individual contributor</label>
+                    </div>
+                    <div class="container-x">
+                        <input id="r21" type="radio" name="question1" value="B">
+                        <label for="r21">Team lead</label>
+                    </div>
+                    <div class="container-x">
+                        <input id="r31" type="radio" name="question1" value="C">
+                        <label for="r31">Manager</label>
+                    </div>
+                    <div class="container-x">
+                        <input id="r41" type="radio" name="question1" value="D">
+                        <label for="r41">Senior executive</label>
+                    </div>
+                </div>
+        
+                <div class="question-div-x">
+                    <p>2. How long have you been in the organization?</p>
+                    <div class="container-x">
+                        <input id="r12" type="radio" name="question2" value="A" checked>
+                        <label for="r12">Less than 1 year</label>
+                    </div>
+                    <div class="container-x">
+                        <input id="r22" type="radio" name="question2" value="B">
+                        <label for="r22">1-2 years</label>
+                    </div>
+                    <div class="container-x">
+                        <input id="r32" type="radio" name="question2" value="C">
+                        <label for="r32">2-3 years</label>
+                    </div>
+                    <div class="container-x">
+                        <input id="r42" type="radio" name="question2" value="D">
+                        <label for="r42">3-4 years</label>
+                    </div>
+                </div>
+    
+    
+                <div class="question-div-x">
+                    <p>3. What is your age group?</p>
+                    <div class="container-x">
+                        <input id="r13" type="radio" name="question3" value="A" checked>
+                        <label for="r13">18-24</label>
+                    </div>
+                    <div class="container-x">
+                        <input id="r23" type="radio" name="question3" value="B">
+                        <label for="r23">25-34</label>
+                    </div>
+                    <div class="container-x">
+                        <input id="r33" type="radio" name="question3" value="C">
+                        <label for="r33">35-44</label>
+                    </div>
+                    <div class="container-x">
+                        <input id="r43" type="radio" name="question3" value="D">
+                        <label for="r43">45-54</label>
+                    </div>
+                </div>
+        
+        
+                
+                <div class="question-div-x">
+                    <p>4. Overall, how satisfied are you with your current employer?</p>
+                    <div class="container-x">
+                        <input id="r14" type="radio" name="question4" value="A" checked>
+                        <label for="r14">Extremely dissatisfied</label>
+                    </div>
+                    <div class="container-x">
+                        <input id="r24" type="radio" name="question4" value="B">
+                        <label for="r24">Somewhat dissatisfied</label>
+                    </div>
+                    <div class="container-x">
+                        <input id="r34" type="radio" name="question4" value="C">
+                        <label for="r34">Somewhat satisfied</label>
+                    </div>
+                    <div class="container-x">
+                        <input id="r44" type="radio" name="question4" value="D">
+                        <label for="r44">Extremely satisfied</label>
+                    </div>
+                </div>
+    
+    
+                 
+                <div class="question-div-x">
+                    <p>5. With which of following statements around career opportunities you agree?</p>
+                    <div class="container-x">
+                        <input id="r15" type="checkbox" name="question5[]" value="A" checked>
+                        <label for="r15">There are opportunities for professional growth.</label>
+                    </div>
+                    <div class="container-x">
+                        <input id="r25" type="checkbox" name="question5[]" value="B">
+                        <label for="r25">My organization is dedicated to my professional development.</label>
+                    </div>
+                    <div class="container-x">
+                        <input id="r35" type="checkbox" name="question5[]" value="C">
+                        <label for="r35">My organization offers job-related training.</label>
+                    </div>
+                    <div class="container-x">
+                        <input id="r45" type="checkbox" name="question5[]" value="D">
+                        <label for="r4">There are opportunities for me to apply my talent and expertise.</label>
+                    </div>
+                </div>
+    
+    
+    
+                <div class="question-div-x">
+                    <p>6. Enter your name</p>
+                    <input class="name-input-x" type="text" required name="userName" >
+                </div>
+    
+    
+                <input class="submit-btn-x" type="submit" value="Sumbit">
+            </form>
+            
+        </div>
+    </div>
+   
+
+    <script>
+        // function POSTX(e){
+        //     var data = new FormData();
+        //       data.append('evalstr', 'fwefe');
+        //       fetch('/ATestX.php', {
+        //         method: "POST",
+        //         body: data
+        //       }).then(response => {console.log(response.text().then(data => console.log(data)))});
+            
+        // }
+
+        document.getElementById('x-x-x').onsubmit = (e) =>{
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            for (const [key, value] of formData.entries()) {
+                console.log(`${key}: ${value}`);
+            }
+
+             fetch('/ATestX.php', {
+                method: "POST",
+                body: formData
+              }).then(response => {console.log(response.text().then(data => console.log(data)))});
+        }
+    </script>
+</body>
+</html>
